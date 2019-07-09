@@ -12,7 +12,7 @@
 
         public function testGreet(){
             $result = $this->welcome->greet();
-            $this->assertEquels("Welcome to DevOps on AWS", $result);
+            $this->assertEquals("Welcome to DevOps on AWS", $result);
         }
     }
 ?>
